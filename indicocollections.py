@@ -5,8 +5,7 @@ from indicoio.custom import Collection
 
 indicoio.config.api_key = '7a8f16edc7a58c8a7773ba95c6d2241b'
 
-collection2 = Collection("collection_name")
-
+collection2 = Collection("colleection_name")
 h1 = indicoio.fer("https://upload.wikimedia.org/wikipedia/commons/2/27/Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg")
 t1 = indicoio.fer("http://i2.cdn.turner.com/money/dam/assets/160224112545-trump-nevada-victory-speech-780x439.jpg")
 # Add Data
@@ -20,4 +19,4 @@ collection2.train()
 collection2.wait()
 
 # Done! Start analyzing text
-print collection2.predict("indico is so easy to use!")
+print collection2.predict("http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg")
